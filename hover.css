@@ -1,0 +1,225 @@
+*{
+    margin: 0PX;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: pink;
+    height: 85px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+header:hover{
+    background-color: hotpink;
+    transform: scale(0.7s);
+    transition:  all ease 0.100s;
+
+   }
+
+img{
+    width: 150px;
+    height: 50px;
+
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+    padding: 10px 50px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition:  all 0.90s ease;
+    border: none;
+    padding: 6px;
+    
+}
+
+
+.one :hover li{
+    background-color: antiquewhite;
+    color: brown;
+}
+
+.submenu{
+   
+    display: block;
+    margin-left: 400px;
+    left: 0;
+   opacity: 0;
+   position: absolute;
+   top: 35px;
+   visibility: hidden;
+   z-index: 1;
+
+}
+
+    
+li:hover ul.submenu{
+    opacity: 1;
+    top: 60px;
+    visibility: visible;
+    color: purple;
+    transform: scale (0.9);
+
+}
+
+.submenu li{
+   
+    border-radius: 5px;
+    margin: 20px;
+    padding: 30px;
+    background-color: lightcoral
+
+}
+
+/* courese css */
+
+.two :hover li{
+    background-color: antiquewhite;
+    color: brown;
+}
+
+
+.two-submenu{
+    display: block;
+    margin-left: 580px;
+    left: 0;
+   opacity: 0;
+   position: absolute;
+   top: 35px;
+   visibility: hidden;
+   z-index: 1;
+
+}
+
+li:hover ul.two-submenu{
+    opacity: 1;
+    top: 60px;
+    visibility: visible;
+    color: purple;
+    transform: scale (0.9);
+}
+
+.two-submenu li{
+    border-radius: 5px;
+    margin: 30px;
+    padding: 30px;
+    background-color: lightcoral;
+}
+
+/* placemennt */
+
+.three-submenu{
+    display: block;
+    margin-left: 700px;
+    left: 0;
+   opacity: 0;
+   position: absolute;
+   top: 35px;
+   visibility: hidden;
+   z-index: 1;
+
+}
+
+li:hover ul.three-submenu{
+    opacity: 1;
+    top: 60px;
+    visibility: visible;
+    color: purple;
+    transform: scale (0.9);
+
+}
+
+.three-submenu li{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+    background-color: lightcoral;
+}
+
+.three :hover li{
+    background-color: antiquewhite;
+    color: brown;
+}
+
+/* student */
+
+.four-submenu{
+    display: block;
+    margin-left: 900px;
+    left: 0;
+   opacity: 0;
+   position: absolute;
+   top: 35px;
+   visibility: hidden;
+   z-index: 1;
+
+}
+
+li:hover ul.four-submenu{
+    opacity: 1;
+    top: 60px;
+    visibility: visible;
+    color: purple;
+    transform: scale (0.9);
+
+}
+
+.four-submenu li{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+    background-color: lightcoral
+}
+
+.four :hover li{
+    background-color: antiquewhite;
+    color: brown;
+}
+
+/* gallery */
+
+.five-submenu{
+    display: block;
+    margin-left: 1050px;
+    left: 0;
+   opacity: 0;
+   position: absolute;
+   top: 35px;
+   visibility: hidden;
+   z-index: 1;
+
+}
+
+li:hover ul.five-submenu{
+    opacity: 1;
+    top: 60px;
+    visibility: visible;
+    color: purple;
+    transform: scale (0.9);
+
+}
+
+.five-submenu li{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+    background-color: lightcoral
+}
+
+.five :hover li{
+    background-color: antiquewhite;
+    color: brown;
+}
+
+
